@@ -17,7 +17,7 @@
             <p id="id1"> This text is uniquely identified by an Id 'id1' </p>
         </div>
 
-        <div class="2nd_exercise">
+        <div class="2nd_exe">
             <h1>Paragraph and text formatting</h1>
 
             <p title="normal p tag">
@@ -41,7 +41,7 @@
             This is <mark>mark</mark> text.
         </div>
 
-        <div class="3rd_exercise">
+        <div class="3rd_exe">
             <h1>Quotations</h1>
             <q> quote example </q>
             <blockquote cite="www.quote.com"> sample example of the blockquote. blah blah blah </blockquote>
@@ -58,7 +58,8 @@
             <bdo dir="rtl">This spells from right to left </bdo><br>
         </div>
 
-        <div class="4th_exercise">
+        <div class="4th_exe">
+            <h1>Display types</h1>
             <div class="para1_div4exe" style="background-color: purple;">
                 <p>p1 in div1. </p>
                 <p>p2 in div1. </p>
@@ -75,5 +76,128 @@
                 sample para to include span containment: <span style="color: red">red color</span> <span style="color: orange">orange color</span> <span style="color: blue">blue color</span>
             </p>
         </div>
+
+        <div class="5th_exe" style="background-color: gray;">
+            <h1>Comments</h1>
+            There are comments inside these divs.
+            <!-- one line comment -->
+            <!--
+                multi
+                line
+                comment
+            -->
+        </div>
+
+        <div class="6th_exe">
+            <h1>Headings</h1>
+            <h1>Heading 1</h1>
+            <h2>Heading 1</h2>
+            <h3>Heading 1</h3>
+            <h4>Heading 1</h4>
+            <h5>Heading 1</h5>
+            <h6>Heading 1</h6>
+        </div>
+
+        <div class="7th_exe">
+            <h1>List</h1>
+            Unordered List: 
+            <ul type="disc">
+                <li>apple</li>
+                <li>orange</li>
+                <li>grape</li>
+            </ul>
+            <ul type="square">
+                <li>apple</li>
+                <li>orange</li>
+                <li>grape</li>
+            </ul>
+            <ul type="circle">
+                <li>apple</li>
+                <li>orange</li>
+                <li>grape</li>
+            </ul><br>
+
+            Ordered List: 
+            <ol type="1">
+                <li>apple</li>
+                <li>orange</li>
+                <li>grape</li>
+            </ol>
+            <ol type="I">
+                <li>apple</li>
+                <li>orange</li>
+                <li>grape</li>
+            </ol>
+            <ol type="i">
+                <li>apple</li>
+                <li>orange</li>
+                <li>grape</li>
+            </ol>
+            <ol type="A">
+                <li>apple</li>
+                <li>orange</li>
+                <li>grape</li>
+            </ol>
+            <ol type="a">
+                <li>apple</li>
+                <li>orange</li>
+                <li>grape</li>
+            </ol><br>
+
+            Description List:
+            <dl>
+                <dt>Description Title</dt>
+                <dd>This is the description list descrioption.</dd>
+            </dl>
+        </div>
+
+        <div class="7th_exe">
+            <h1>Tables</h1>
+            <table height="100px" width="200px" cellspacing="5px" cellpadding="5px" border="1">
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>name1</td>
+                        <td rowspan="2">mark1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>name2</td>
+                        <!-- <td>mark2</td> -->
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td>tot</td>
+                    </tr>
+                </tfoot>
+                <thead>
+                    <tr>
+                        <th>slNo</th>
+                        <th>Names</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+        <div class="8th_exe">
+            <h1>Images</h1>
+            <img src="./images/html-system-website-concept.jpg" alt="image" border="10" align="right" width="50px" height="50px">
+        </div>
+
+        <div class="9th_exe">
+            <h1>Links</h1>
+            <a href="https://www.google.com">google</a> <br>
+            <a href="https://www.google.com" target="_self">google</a> <br>
+            <a href="https://www.google.com" target="_parent">google</a> <br>
+            <a href="https://www.google.com" target="_top">google</a> <br>
+            <a href="./images/html-system-website-concept.jpg" target="_blank">
+                <img src="./images/html-system-website-concept.jpg" alt="image" width="50px" height="50px" border="10">
+            </a> <br>
+            <a href="mailto:abc@xyz.com">mail address</a>
+        </div>
+
     </body>
 </html>

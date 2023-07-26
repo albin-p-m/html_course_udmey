@@ -66,3 +66,75 @@ Display types
 * Inline Element - which occuppy the necessary space. more than one inline elements in a line can be possible.
 * <div></div> - block element to group elements.
 * <span></span> - inline element to group elements.
+
+
+Comments
+* HTML elements that are not visible in the body.
+* syntax: <!-- [content] -->
+* used to helpful insights.
+* single line comment - comment elemnts that is only one line of code.
+* multi line comment - comment elements that extends to more than one line of code.
+
+
+
+Headings
+* Elements used to head the titles inside our web pages.
+* 6 levels of headings - <h1></h1> to <h6></h6> - reduce the font size form 1 to 6.
+* Used for SEO.
+
+
+
+Lists
+* used to handling array of data. 
+* displays as list.
+* list items are displayed using the <li></li> tag.
+* <ul></ul> - unordered list - the order is not important, 
+    => three types - square, disc and circle
+* <ol></ol> - ordered list - the order of the items are important,
+    => 5 types - 1, I, i, A, a
+* <dl></dl> - description list - To handle the data with discription.
+    => <dt></dt> - description title - title of the description.
+    => <dd></dd> - description - description of the title.
+
+
+Tables
+* used to display tabular data
+* basic syntax: 
+    <table> 
+        <tr>
+            <td> </td>
+        </tr>
+    </table>
+* height - height of the table
+* width - width of the table
+* cellpadding - space between cell content and cell border
+* cellspacing - space between two cells
+* colspan - merges more than one columns
+* rowspan - merges more than one rows
+* table sections - <thead></thead>, <tbody></tbody> and <tfoot></tfoot> 
+* thead displays at the top of the table
+* tbody displays at the middle of the table
+* tfoot displays at the bottom of the table
+
+
+Images
+* <img/> - for adding Images
+* it is a self closing tag
+* src attribute - for the path of the image we want to display.
+* alt attribute - text to display if the image cannot be loaded.
+* border attribute - for setting the border of the image. the value is a number and its default measure is in px
+* align attribute - for aligning the image. have values left, center or right
+
+
+Links
+* HTML links or hyperlinks are HTML elements that allows a user to navigate from one website to another.
+* <a></a>
+* href attribute - important attribute. The value is the location of the website to which we want to navigate to (destination page).
+* target attribute - how to redirect to the new page. have 2 values:
+    => _self -  redirection happens in the same tab
+    => _blank - redirection happens in a new tab
+* text link - text for redirection.
+* image link - imge for redirection.
+* email link - opens the mail app and initialise the mail with the given destination address.
+    => <a href="malito:abc@xyz.com">email me</a>
+
