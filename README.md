@@ -1,2 +1,2 @@
 # html_course_udmey
-html learning course
+This is a repository created for learning HTML from Udmey.
