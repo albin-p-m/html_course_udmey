@@ -59,3 +59,10 @@ HTML Quotations
 * <address></address> - for address and will be similar to italic.
 * <cite></cite> - usually used for titling or naming some work. displayed similar to italics.
 * <bdo></bdo> - BiDirectional Overide HTML Element - controls the directions of the text flow.
+
+
+Display types
+* Block Elements - start in new line and everything after it display in new line.
+* Inline Element - which occuppy the necessary space. more than one inline elements in a line can be possible.
+* <div></div> - block element to group elements.
+* <span></span> - inline element to group elements.
