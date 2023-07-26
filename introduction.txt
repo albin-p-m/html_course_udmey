@@ -1,0 +1,36 @@
+* HTML - Hyper Text Markup Language
+* Used to create web pages.
+
+How to create a HTML document?
+* Are basically text documents. But HTML uses .html extensions.
+
+HTML Tags
+* starts with < and ends with > are opening tags.
+* Starts with </ and ends with > are closing tags. 
+
+HTML Elements
+* The opening tag, closing tag and the content inbetween them are together called HTML Elements.
+* There exists some tags which don't require a closing tag. Such tags are called self closing tags. And such HTML Element is called Empty HTML element.
+
+HTML Document structure
+* <!DOCTYPE html> - version of HTML
+* <html></html> - contains styles, scripts and the visible parts of the web page.
+* <head></head> - contains the styles, scripts and instructions that are important for out document. only the title element of the head element is visible in the tab of the html page.
+* <body></body> - Is the visible part of our web page.
+
+Nesting
+* one element in another Element
+* Parent Element - Element containing another element.
+* Child Element - Element contained inside another element.
+
+HTML Attribute
+* additional instructions for HTML elememts.
+* eg: <p align="left"> Left text </p>
+* syntax: [attribute_name]="[attribute_value]"
+
+Common Attributes
+* id - Allows to set an id to the HTML element.
+* title - Allows to set the title of the HTML element. can be seen when we hover over the HTML element.
+* class - Used to group element to style elements.
+* style - Used to add styles available in the CSS.
+
