@@ -34,3 +34,28 @@ Common Attributes
 * class - Used to group element to style elements.
 * style - Used to add styles available in the CSS.
 
+
+HTML Paragraph and text formatting
+* <P> tag allows us to crate a text Paragraph.
+* This won't render additional spaces.
+* </br> - breaks the line in a Paragraph. and the next word starts from a new line.
+* <pre></pre> - preserves the formmatting in the text. i.e. all additional spaces and text written in a new line will be visible as it is written.
+* <b></b> - bold text
+* <i></i> - italic text
+* <u></u> - underline text
+* <strike></strike> - strikes the text
+* <tt></tt> - mono text. which means the letters in each word will have same width.
+* <sup></sup> - superscript. Text which appears slightly upper to other text.
+* <sub></sub> - subscript. Text which appears slightly lower to other text.
+* <big></big> - bigger than other text
+* <small></small> - smaller than other text
+* <mark></mark> - highlights the text
+
+
+HTML Quotations
+* <q></q> - for quotations marks
+* <blockquote></blockquote> - for a large quotation for which we want to add source of quotation.
+* <abbr></abbr> - for abbriviation
+* <address></address> - for address and will be similar to italic.
+* <cite></cite> - usually used for titling or naming some work. displayed similar to italics.
+* <bdo></bdo> - BiDirectional Overide HTML Element - controls the directions of the text flow.
