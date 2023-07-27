@@ -168,3 +168,14 @@ how to cover frames failure:
         </noframes>
     </frameset>
 
+
+HTML iframes
+* It is a rectangular container where we can load another HTML document. 
+* attribute:
+ => src - path to the web document
+ => frameborder - sets the border of the iframe.
+ => width - width of the iframe
+ => height - height of the iframe
+ => marginwidth - distance b/w the frame and the content of the iframe on left and right sides.
+ => marginheight - distance b/w the frame and the content of the iframe on the top and bottom.
+ => scrolling - enables or disables scrolling in the iframes.
