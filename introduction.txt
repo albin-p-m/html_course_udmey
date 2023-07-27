@@ -182,10 +182,33 @@ HTML iframes
 
 
 
- Froms
+ Forms
  * HTML elements for get data from the website.
  * uses <form></from> tag and inside this element will have different form elements to fetch data.
  * From attributes: 
     => action - the path of the script for processing the data.
     => method - http method to send our data to the server for data processing. Common methods are get and post.
     => target - where to display the processed data. i.e. in the same tab or in different tab or in a frame etc...
+
+
+Form Elements
+* used to create HTML forms.
+* common form elements:
+ => <input> - It is a self closing element, used to create vcarious type of from elements like text field, password fields, submit buttons, radio buttons, checkboxes, etc.
+ => <select> - used to create a dropdown list. The size attribute will determine the number of elements to be visible. multiple attribute defines that we can select more than one value in the dropdown list.
+ => <option> - used inside select element for providing options for selection. value attribute's value is the value that will be selected by the select element. the selected attribute selects an initial value for the select element.
+ => <textarea> - used to input multiline values. rows and cols attributes define the number of rows and columns that the textarea element should use. 
+ => <button> - creates button. onclick attribute defines what to happen when the button is clicked. is will be javascript code to execute. type attribute defines what type of the button it should be. there are 3:
+    -> button - simple button and we need to define a function for execution while clicking that button
+    -> submit - takes values from the form and sends it to the defined location.
+    -> reset - reset the form to initail values
+ => <datalist> - it is a combination of the input text field and the dropdown list. when entering values into the input fields lists data which was previously set and we can select from it.
+    -> syntax: 
+        <input list="colors">
+        <datalist id="colors">
+            <option value="red">
+            <option value="blue">
+            <option value="green">
+            <option value="yellow">
+        </datalist>
+    -> list attribute connects the input field to the datalist with the id same as of the list attribute value of the input field.
