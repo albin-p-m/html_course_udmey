@@ -212,3 +212,22 @@ Form Elements
             <option value="yellow">
         </datalist>
     -> list attribute connects the input field to the datalist with the id same as of the list attribute value of the input field.
+
+
+Input Element Types
+* input elemnt are used to create various form input elements.
+* attributes:
+ => type - type of the input. i.e. text, password, radio, etc
+ => name - for uniquely idetifying the input value. needed if values are to send to server.
+ => value - value of the input field.
+* have various types:
+    => text - can input alpha numeric values
+    => password - similar to text type but the values will be masked with bullets or asterisks on entering.
+    => reset - for creating a reset button.
+    => submit - for creating a submit button.
+    => button - for creating a normal button. need and onclick attribute to let the button have a functionality.
+    => radio - for creating radio buttons which enables us to select only one option from a list of available options. the name attribute of these element should be same for one group.
+    => checkbox - for creating checkboxes which enables us to select more than one options.
+    => file - for selecting the file in our system. the accept attribute restricts us to choose the defined file types only (eg: image/png).
+    => image - for creating an image button. Functions similar to submit button.
+
