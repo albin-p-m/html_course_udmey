@@ -179,3 +179,13 @@ HTML iframes
  => marginwidth - distance b/w the frame and the content of the iframe on left and right sides.
  => marginheight - distance b/w the frame and the content of the iframe on the top and bottom.
  => scrolling - enables or disables scrolling in the iframes.
+
+
+
+ Froms
+ * HTML elements for get data from the website.
+ * uses <form></from> tag and inside this element will have different form elements to fetch data.
+ * From attributes: 
+    => action - the path of the script for processing the data.
+    => method - http method to send our data to the server for data processing. Common methods are get and post.
+    => target - where to display the processed data. i.e. in the same tab or in different tab or in a frame etc...
