@@ -244,3 +244,17 @@ Input element type in HTML5
 * time - creates time input field.
 * url - creates input fields to enter only valid url address.
 * week - creates a week picker.
+
+
+Restricttion Attributes
+* restricts default behaviour of the HTML elements.
+* disabled - disabled the HTML elements. i.e. we can't use the element.
+* readonly - makes the element read only. 
+* required - makes the field compulsory to enter a value.
+* size - makes the input field to restrict the visibility to the size.
+* step - makes the input field valid for only steped value. eg: if the value="0" and step="5", then we can only enter values like 0, 5, 10, 15, etc.
+* pattern - makes the input field valid for only the specified pattern.
+* min - restricts the minimum value to enter into a field. only for input type="number".
+* max - restricts the maximum value to enter into a field. only for input type="number".
+* minlength - restricts the minimum number of characters to be entered into the field.
+* maxlength - restricts the maximum number of characters to be entered into the field.
