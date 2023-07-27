@@ -272,3 +272,20 @@ Head Element
     => we can link another external script file to our HTML document. here we have to use the type attribute to difine the type of the script(eg: text/javascript) and src attribute defines the path of the script file to be linked.
 * <style> - define the styles in the HTML document.
 * <title> - used to define the title of the HTML doc which is seen inside the tab
+
+
+Meta 
+* used to define various instructions and information that are important for HTML document.
+* eg: <meta http-equiv="refresh" content="30"> refreshes the website after 30 seconds
+* this tag usually contains the following attributes:
+    => name - represent what we want to set with the meta tag
+    => http-equiv - represents instructions for HTTP 
+    => content - represents the value of the meta tag
+* the name and http-equiv attribute doesn't go together
+* author metatag - used to define the author of the website.
+* descrioption metatag - used to define the website.
+* keywords metatag - used to define the keywords for the website.
+* revised metatag - used to set the website's last updated date.
+* refresh metatag - used to set time to refresh the website.
+* content-type metatag - used to define what type of content that we send (<meta http-equiv="content-type" content="text/html;charset=utf-8")
+* viewport metatag - define how website is viewed in different sized devices. ( <meta http-equiv="viewport" content="width=device-width, initial-scale=2.0">)
