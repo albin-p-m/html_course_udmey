@@ -258,3 +258,17 @@ Restricttion Attributes
 * max - restricts the maximum value to enter into a field. only for input type="number".
 * minlength - restricts the minimum number of characters to be entered into the field.
 * maxlength - restricts the maximum number of characters to be entered into the field.
+
+Head Element
+* Used to define style, script and metadata related to that HTML document.
+* <base> - define a base URL that we will use for all relative URLs in HTML document. href attribute defines the base URL.
+* <link> - used to link the current HTML document with external source. rel attribute defines the what represents the related HTML document and href defines the path of the linking document.
+* <meta> - used to define metadata of the HTML document.
+    eg: <meta name="author" content="MasterMinds">
+        <meta name="description" content="HTML tutorials">
+        <meta name="keywords" content="HTML, tutorials">
+* <script> - used to define scripts used in a HTMl document. can use in 2 ways:
+    => we can write the script inside the script element.
+    => we can link another external script file to our HTML document. here we have to use the type attribute to difine the type of the script(eg: text/javascript) and src attribute defines the path of the script file to be linked.
+* <style> - define the styles in the HTML document.
+* <title> - used to define the title of the HTML doc which is seen inside the tab
