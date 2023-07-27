@@ -138,3 +138,33 @@ Links
 * email link - opens the mail app and initialise the mail with the given destination address.
     => <a href="malito:abc@xyz.com">email me</a>
 
+
+Frames
+* HTML elements to divide the screen in different section.
+* created with <frameset></frameset> and <frame></frame> tags.
+* <frameset></frameset> divide the screen space available in the website.
+* imp attributes:
+    => frameset:
+        -> cols - divide our screen in columns. eg: <frameset cols="33%,*,300px">
+        -> rows - divide our screen in rows. eg: <frameset rows="500,*">
+    => frame:
+        -> src - the path of the content for our frame.
+        -> name - represent a unique name for our frame. this name can be used in the target property of anchor tag to load that site in this frame.
+defects of using frames:
+* Depricated from HTML5
+* Acts weired in small devices
+* Some browsers don't support frames.
+* Also in some browsers back button doesn't work as it is intended.
+how to cover frames failure:
+* use the <noframes> HTML element.
+* if for some reasons the frames are not loaded the the content in the noframes HTML element gets loaded.
+* syntax:
+    <frameset>
+        <frame src="abc.xyz.com" name="name1">
+        <noframes> 
+            <body>
+                content here
+            </body>
+        </noframes>
+    </frameset>
+
