@@ -231,3 +231,16 @@ Input Element Types
     => file - for selecting the file in our system. the accept attribute restricts us to choose the defined file types only (eg: image/png).
     => image - for creating an image button. Functions similar to submit button.
 
+Input element type in HTML5
+* color - create a color picker.
+* date - create a date picker.
+* datetime-local - create a date picker with a time picker.
+* email - create email input fields. only holds a valid email.
+* month - create a month picker.
+* number - create a number input field. only holds a valid number.
+* range - create a range selector. min attribute defines the minimum value and max attribute defines the maximum value.
+* search - creates a search input field. similar to text input field but behaves differently with the different attribute(autocomplete, list, maxlenght, minlength, pattern, placeholder, required, size) used.
+* tel - creates input field to enter only valid telephone numbers. the validity is checked by the value set in the pattern attribute.
+* time - creates time input field.
+* url - creates input fields to enter only valid url address.
+* week - creates a week picker.
